@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Activitats — LinuxUPC</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@300;400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/assets/favicon/site.webmanifest">
+</head>
+
+<body>
+
+  <!-- Barra de Navegació -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo-container">
+        <div class="logo-box" title="LinuxUPC Logo">
+          <img src="/assets/img/linuxupc-logo.png" alt="LinuxUPC Logo" class="logo-img"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+          <span class="logo-placeholder"></span>
+        </div>
+        <span class="logo-text"> Linux<span class="highlight">UPC</span></span>
+      </a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">INICI</a></li>
+          <li><a href="index.html#comunidad">COMUNITAT</a></li>
+          <li><a href="historico.html">HISTÒRIC</a></li>
+          <li><a href="actividades.html" class="active">ACTIVITATS</a></li>
+          <li><a href="index.html#despacho">UBICACIÓ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Capçalera de Secció -->
+  <section class="section">
+    <div class="container">
+      <span class="badge">Agenda & Esdeveniments</span>
+      <h1 class="section-title">Cartellera d'Activitats</h1>
+      <p class="section-subtitle">Tallers pràctics, installfests i xerrades sobre programari lliure organitzades a la
+        FIB.</p>
+
+      <!-- Grid de Cartells d'Activitats -->
+      <div class="actividades-grid">
+
+        <!-- Cartell 1: Pròxima Activitat -->
+        <article class="activity-card featured">
+          <div class="activity-status status-upcoming">🚀 Pròxima cherrada</div>
+          <h2 class="activity-title">GPG & PGP</h2>
+
+          <div class="activity-meta">
+            <div class="meta-item">
+              <span class="meta-label">📅 Data:</span>
+              <span class="meta-value">A concretar</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">📍 Lloc:</span>
+              <span class="meta-value">A concretar</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">⏱️ Durada:</span>
+              <span class="meta-value">2 hores</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">👤 Imparteix:</span>
+              <span class="meta-value">LinuxUPC</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">💻 Requisits:</span>
+              <span class="meta-value">Cap</span>
+            </div>
+          </div>
+
+          <div class="activity-description">
+            <p><strong>Descripció:</strong> entèn els conceptes bàsics de <code>GPG</code> i <code>PGP</code> per a la
+              signatura digital i el xifrat de missatges.</p>
+          </div>
+
+          <div class="activity-footer">
+            <a href="index.html#newsletter" class="btn btn-primary">Rebre un recordatori per correu</a>
+          </div>
+        </article>
+        <article class="activity-card featured">
+          <div class="activity-status status-upcoming">🚀 Pròxima workshop</div>
+          <h2 class="activity-title">Introducció a Vim</h2>
+
+          <div class="activity-meta">
+            <div class="meta-item">
+              <span class="meta-label">📅 Data:</span>
+              <span class="meta-value">A concretar</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">📍 Lloc:</span>
+              <span class="meta-value">A concretar</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">⏱️ Durada:</span>
+              <span class="meta-value">2 hores</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">👤 Imparteix:</span>
+              <span class="meta-value">Marcel i Arturo</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">💻 Requisits:</span>
+              <span class="meta-value">Portàtil propi (Qualsevol SO)</span>
+            </div>
+          </div>
+
+          <div class="activity-description">
+            <p><strong>Descripció:</strong> practica l'ús de les commandes més comunes per a la navegació i edició de
+              fitxers en l'editor de codi obert més utilitzat a tot el món. A més, es fará una petita introducció a
+              <code>NeoVim</code>.
+            </p>
+          </div>
+
+          <div class="activity-footer">
+            <a href="index.html#newsletter" class="btn btn-primary">Rebre un recordatori per correu</a>
+          </div>
+        </article>
+
+        <!-- Cartell 2 -->
+        <article class="activity-card">
+          <div class="activity-status status-planned">📌 Planificat</div>
+          <h2 class="activity-title">Install Party</h2>
+
+          <div class="activity-meta">
+            <div class="meta-item">
+              <span class="meta-label">📅 Data:</span>
+              <span class="meta-value"> 16 de Septembre de 2026</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">📍 Lloc (per trams):</span>
+              <span class="meta-value">XXXXXX</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">⏱️ Durada:</span>
+              <span class="meta-value">Tota la jornada del día</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">👤 Imparteix:</span>
+              <span class="meta-value">Comunitat LinuxUPC</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">💻 Requisits:</span>
+              <span class="meta-value"> Pendrives amb ISO de Linux instalada (si no en tens podrás adquirir-ne un el
+                mateix dia de
+                la Install Party per X,XX €)</span>
+            </div>
+          </div>
+
+          <div class="activity-description">
+            <p><strong>Descripció:</strong> vols instal·lar Linux al teu portàtil, fent una partició de disc,
+              instal·lant-lo en TOT el disc o bé instal·lant-lo en una máquina virtual? Vine a la install Party amb la
+              teva ISO instalada en un pendrive i et guiarem pas a pas en la
+              instal·lació i configuració inicial del teu nou sistema operatiu. A més, també ajudem en la instalació de
+              la máquina virtual en el teu sistema operatiu actual, si no vols o no pots ocupar més espai del teu disc.
+              (<a href="https://www.youtube.com/shorts/t1pJUPuQhWU" target="_blank">Aquí</a> tens un short per saber que
+              vol dir tenir una máquina virtual al teu dispositiu y <a
+                href="https://www.youtube.com/watch?v=10cFREriaqo" target="_blank">aquí</a> un altre sobre que vol dir
+              particionar el disc, per valorar que es més convenient per a tú)</p>
+            <p><strong style="color: crimson;">IMPORTANT!:</strong> si no portas el teu pendrive amb l'ISO de Linux
+              instal·lada, podrás adquirir-ne un el mateix dia de la Install Party per X,XX €, amb LinuxMint, Ubuntu o
+              bé Debian ja instalat en aquest. Et deixem un enllaç sobre uns passos <strong
+                style="color: crimson;">OBLIGATORIS</strong> abans de venir a la install Party si vols fer partició de
+              disc o instalació total al disc (no cal seguir-los per instalar la màquina virtual).</p>
+          </div>
+
+          <div class="activity-footer">
+            <a href="preparacion.html" target="_blank" rel="noopener" class="btn btn-secondary" style="color: #ffffff; background-color: #cf1111; border-color: #ff2600;">Veure guia ↗</a>
+          </div>
+          <div class="activity-footer">
+            <a href="https://forms.gle/SdQZBkLUopZ7iZQe9" target="_blank" rel="noopener" class="btn btn-primary">Inscriure-se ↗</a>
+          </div>
+        </article>
+
+        <!-- Cartell 3 -->
+        <article class="activity-card">
+          <div class="activity-status status-past">📦 Workshop passada</div>
+          <h2 class="activity-title">Git & GitHub: iniciació</h2>
+
+          <div class="activity-meta">
+            <div class="meta-item">
+              <span class="meta-label">📅 Data:</span>
+              <span class="meta-value">Juny de 2025</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">📍 Lloc:</span>
+              <span class="meta-value">Campus Nord UPC</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">⏱️ Durada:</span>
+              <span class="meta-value">2 hores</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">👤 Imparteix:</span>
+              <span class="meta-value">LinuxUPC</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">💻 Requisits:</span>
+              <span class="meta-value">Consola/Terminal instal·lada</span>
+            </div>
+          </div>
+
+          <div class="activity-description">
+            <p><strong>Descripció:</strong> Fluxos de treball amb Git, gestió de branques i resolució de conflictes
+              sense pànic.</p>
+          </div>
+
+          <div class="activity-footer">
+            <a href="https://github.com/LinuxUPC/final-git-workshop-repo" target="_blank" rel="noopener"
+              class="btn btn-secondary">Diapositives a GitHub ↗</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Peu de pàgina -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <h3>LinuxUPC</h3>
+        <p>Associació de Programari Lliure de la Universitat Politècnica de Catalunya.</p>
+        <p class="footer-email">Contacte: <a href="mailto:linuxupc@disroot.org">linuxupc@disroot.org</a></p>
+      </div>
+      <div class="footer-links">
+        <h4>Xarxes Socials i Plataformes</h4>
+        <div class="social-grid">
+          <a href="https://github.com/LinuxUPC" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="https://x.com/linuxUPC" target="_blank" rel="noopener">Twitter / X ↗</a>
+          <a href="https://www.instagram.com/linuxupc" target="_blank" rel="noopener">Instagram ↗</a>
+          <a href="https://www.twitch.tv/linuxupc" target="_blank" rel="noopener">Twitch ↗</a>
+          <a href="https://bsky.app/profile/linuxupc.org" target="_blank" rel="noopener">Bluesky ↗</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; LinuxUPC. Distribuït sota llicència Copyleft / CC BY-SA 4.0 | <a href="legal.html"
+          style="color: #6b7280; text-decoration: underline;">Avís Legal i Privacitat</a></p>
+    </div>
+  </footer>
+
+</body>
+
+</html>

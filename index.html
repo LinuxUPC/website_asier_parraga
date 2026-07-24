@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinuxUPC - Associació de Programari Lliure (FIB - UPC)</title>
+
+    <!-- Fonts per a estil hacker/tech -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+
+    <!-- Fulla d'estils externa -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Barra de Navegació Superior -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo-container">
+                <div class="logo-box" title="LinuxUPC Logo">
+                    <img src="/assets/img/linuxupc-logo.png" alt="LinuxUPC Logo" class="logo-img"
+                        onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                    <span class="logo-placeholder"></span>
+                </div>
+                <span class="logo-text">Linux<span class="highlight">UPC</span></span>
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#inicio" class="active">INICI</a></li>
+                    <li><a href="#comunidad">COMUNITAT</a></li>
+                    <li><a href="historico.html">HISTÒRIC</a></li>
+                    <li><a href="actividades.html">ACTIVITATS</a></li>
+                    <li><a href="#despacho">UBICACIÓ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Comunitat, Programari Lliure i Cultura <span class="highlight">GNU/Linux</span></h1>
+            <p>L'associació de la Universitat Politècnica de Catalunya que impulsa el codi obert, la ciberseguretat, els
+                sistemes operatius lliures i la sobirania tecnològica.</p>
+            <div class="hero-buttons">
+                <a href="#comunidad" class="btn btn-primary">Unir-se a la comunitat</a>
+                <a href="actividades.html" class="btn btn-secondary">Activitats i Projectes ↗</a>
+            </div>
+        </div>
+        <div class="hero-terminal">
+            <div class="terminal-header">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+                <span class="terminal-title">bash — linuxupc@fib</span>
+            </div>
+            <div class="terminal-body">
+                <p><span class="path">user@linuxupc:~$</span> neofetch</p>
+                <p class="term-output"><span class="highlight">OS:</span> LinuxUPC OS x86_64</p>
+                <p class="term-output"><span class="highlight">Ubicació:</span> FIB - Campus Nord, Despatx A3S105</p>
+                <p class="term-output"><span class="highlight">Email:</span> <a
+                        href="mailto:linuxupc@disroot.org">linuxupc@disroot.org</a></p>
+                <p class="term-output"><span class="highlight">Uptime:</span> +10 anys difonent el Programari Lliure</p>
+
+                <p><span class="path">user@linuxupc:~$</span> <span class="cursor"></span></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Secció Canals i Comunitat -->
+    <section id="comunidad" class="section bg-alt">
+        <div class="container">
+            <h2 class="section-title">Canals de la Comunitat</h2>
+            <p class="section-subtitle">Segueix les nostres novetats, resol dubtes o parla amb altres membres de
+                l'associació.</p>
+
+            <div class="cards-grid">
+                <!-- Targeta Correu -->
+                <div class="card card-link-email">
+                    <div class="card-icon">
+                        <!-- Cambia fill="#0080c9" por fill="#ef4444" -->
+                        <svg viewBox="0 0 24 24" fill="#ef4444">
+                            <path
+                                d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                        </svg>
+                    </div>
+                    <h3>Correu Electrònic</h3>
+                    <p>Vols contactar amb nosaltres respecte qualsevol assumpte de l'associació?</p>
+                    <a href="mailto:linuxupc@disroot.org" class="card-btn">linuxupc@disroot.org ↗</a>
+                </div>
+                <!-- Targeta WhatsApp -->
+                <div class="card card-link-whatsapp">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="#25D366">
+                            <path
+                                d="M12.012 2c-5.506 0-9.989 4.478-9.99 9.984 0 1.763.459 3.486 1.332 5.004L2 22l5.138-1.347A9.92 9.92 0 0 0 12.012 22c5.507 0 9.991-4.478 9.991-9.986 0-5.507-4.484-9.985-9.991-9.985zm5.82 14.28c-.244.687-1.42 1.31-1.956 1.37-.514.058-1.173.083-3.376-.827-2.822-1.165-4.632-4.032-4.773-4.221-.14-.188-1.144-1.523-1.144-2.905 0-1.382.723-2.062.98-2.343.258-.282.563-.352.75-.352.188 0 .376 0 .54.009.174.01.41.008.62.51.21.503.717 1.75.78 1.878.062.128.104.282.02.446-.085.165-.127.27-.254.418-.127.148-.268.33-.383.444-.127.127-.26.265-.112.518.148.253.658 1.087 1.412 1.76 0.97.865 1.787 1.133 2.04 1.26.253.127.402.106.551-.064.148-.17.635-.74.805-.994.17-.253.338-.211.564-.127.226.084 1.438.678 1.685.802.247.124.412.186.474.292.062.106.062.618-.182 1.305z" />
+                        </svg>
+                    </div>
+                    <h3>Canal d'avisos de WhatsApp</h3>
+                    <p>Assabenta't al moment de les pròximes xerrades, workshops i esdeveniments importants a la
+                        facultat.</p>
+                    <a href="https://whatsapp.com/channel/0029VbCVDnOGU3BDNiX92z2X" class="card-btn">Enllaç↗</a>
+                </div>
+                <!-- Targeta Telegram -->
+                <div class="card card-link-telegram">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="#2AABEE">
+                            <path
+                                d="M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0zm5.56 8.16l-1.97 9.28c-.15.68-.55.84-1.12.52l-3.05-2.25-1.47 1.42c-.16.16-.3.3-.61.3l.22-3.1 5.64-5.1c.25-.22-.05-.34-.38-.12l-6.97 4.39-3.01-.94c-.65-.2-.67-.65.14-.97l11.76-4.53c.54-.2 1.02.13.82.9l-.01-.01z" />
+                        </svg>
+                    </div>
+                    <h3>Canal de Telegram</h3>
+                    <p>Discussions, resolució de dubtes sobre Linux, notícies de l'associació i xat lliure amb la
+                        comunitat.</p>
+                    <a href="#" class="card-btn disabled" style="color: #ffff;">Demanans en algún dels nostres events
+                        que t'afegim y aprofita per presentar-te als membres de l'associació.</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Secció Històric -->
+    <section id="historico" class="section">
+        <div class="container">
+            <h2 class="section-title">Històric i trajectòria</h2>
+            <p class="section-subtitle">La nostra història acompanyant el creixement del programari lliure al campus.
+            </p>
+
+            <div style="margin-top: 1.5rem;">
+                <a href="historico.html" class="btn btn-secondary">Llegir història completa ↗</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Secció Activitats / GitHub -->
+    <section id="proyectos" class="section bg-alt">
+        <div class="container">
+            <h2 class="section-title">Activitats i Projectes</h2>
+            <p class="section-subtitle">Consulta els nostres tallers, xerrades i repositoris oberts.</p>
+
+            <div class="github-box">
+                <div class="github-info">
+                    <div class="github-icon">💻</div>
+                    <div>
+                        <h3>Les nostres Activitats i Repositoris</h3>
+                        <p>Accedeix al detall dels nostres esdeveniments o explora directament les diapositives i codi a
+                            GitHub.</p>
+                    </div>
+                </div>
+                <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+                    <a href="actividades.html" class="btn btn-primary">Veure Activitats ↗</a>
+                    <a href="https://github.com/LinuxUPC" target="_blank" rel="noopener"
+                        class="btn btn-secondary">GitHub ↗</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Secció Despatx / Ubicació -->
+    <section id="despacho" class="section">
+        <div class="container">
+            <div class="despacho-grid">
+                <div class="despacho-info">
+                    <h2 class="section-title">Trobans al Campus</h2>
+                    <p class="despacho-desc">
+                        El nostre punt de trobada està ubicat a la <strong>Facultat d'Informàtica de Barcelona
+                            (FIB)</strong>.
+                    </p>
+                    <ul class="despacho-details">
+                        <li><strong>Campus:</strong> Campus Nord UPC</li>
+                        <li><strong>Despatx:</strong> A3S105</li>
+                        <li><strong>Espai compartit:</strong> juntament amb els nostres companys de <em><a
+                                    href="https://hackersatupc.org/">Hackers UPC</a></em>.</li>
+                        <li><strong>Horari d'atenció:</strong> passem pel despatx habitualment durant el dia entre
+                            classes. Si veus la porta oberta, passa a saludar!</li>
+                    </ul>
+                </div>
+                <div class="despacho-card">
+                    <div class="despacho-badge">📍 FIB - Campus Nord</div>
+                    <div class="room-number">A3S105</div>
+                    <p class="shared-note">Espai compartit amb <a href="https://hackersatupc.org/"><span>Hackers
+                                UPC</span></a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Secció Newsletter -->
+    <section id="newsletter" class="section bg-alt border-top">
+        <div class="container">
+            <div class="newsletter-card">
+                <div class="newsletter-content">
+                    <span class="badge-newsletter">📬 Estigues al dia</span>
+                    <h2>Subscriu-te a la Newsletter</h2>
+                    <p>Assabenta't abans que ningú de les nostres xerrades i workshops sobre programari lliure i
+                        esdeveniments col·laboratius al campus Nord.</p>
+                </div>
+
+                <div class="newsletter-action">
+                    <a href="https://forms.gle/wRWkaSi9pHjfzjnn8" target="_blank" rel="noopener"
+                        class="btn btn-primary btn-newsletter">
+                        Subscriure's a la Newsletter ↗
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Peu de pàgina -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h3>LinuxUPC</h3>
+                <p>Associació de Programari Lliure de la Universitat Politècnica de Catalunya.</p>
+                <p class="footer-email">Contacte: <a href="mailto:linuxupc@disroot.org">linuxupc@disroot.org</a></p>
+            </div>
+            <div class="footer-links">
+                <h4>Xarxes Socials i Plataformes</h4>
+                <div class="social-grid">
+                    <a href="https://github.com/LinuxUPC" target="_blank" rel="noopener">GitHub ↗</a>
+                    <a href="https://x.com/linuxUPC" target="_blank" rel="noopener">Twitter / X ↗</a>
+                    <a href="https://www.instagram.com/linuxupc" target="_blank" rel="noopener">Instagram ↗</a>
+                    <a href="https://www.twitch.tv/linuxupc" target="_blank" rel="noopener">Twitch ↗</a>
+                    <a href="https://bsky.app/profile/linuxupc.org" target="_blank" rel="noopener">Bluesky ↗</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; LinuxUPC. Distribuït sota llicència Copyleft / CC BY-SA 4.0 | <a href="legal.html"
+                    style="color: #6b7280; text-decoration: underline;">Avís Legal i Privacitat</a></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

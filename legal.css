@@ -1,0 +1,139 @@
+:root {
+  --bg-color: #0b0f19;
+  --panel-bg: #111827;
+  --text-main: #d1d5db;
+  --text-muted: #9ca3af;
+  --text-white: #f9fafb;
+  --upc-blue: #0080c9;
+  --border-color: rgba(255, 255, 255, 0.1);
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'Fira Code', monospace;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  font-family: var(--font-sans);
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+a {
+  color: var(--upc-blue);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header legal */
+.legal-header {
+  border-bottom: 1px solid var(--border-color);
+  background-color: var(--panel-bg);
+  padding: 1.2rem 0;
+}
+
+.legal-container {
+  max-width: 800px; /* Ancho reducido para óptima lectura */
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.back-link {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.doc-badge {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  color: var(--text-muted);
+}
+
+/* Contenido Principal */
+.content {
+  padding-top: 3.5rem;
+  padding-bottom: 5rem;
+}
+
+h1 {
+  font-size: 2.2rem;
+  color: var(--text-white);
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.5px;
+}
+
+.last-updated {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.divider {
+  border: 0;
+  height: 1px;
+  background: var(--border-color);
+  margin: 2rem 0;
+}
+
+.legal-section {
+  margin-bottom: 2.5rem;
+}
+
+.legal-section h2 {
+  color: var(--text-white);
+  font-size: 1.35rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.4rem;
+}
+
+.legal-section h3 {
+  color: var(--text-white);
+  font-size: 1.1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.legal-section p {
+  margin-bottom: 1rem;
+}
+
+.legal-list {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.legal-list li {
+  margin-bottom: 0.5rem;
+}
+
+.legal-list strong {
+  color: var(--text-white);
+}
+
+/* Footer legal */
+.legal-footer {
+  border-top: 1px solid var(--border-color);
+  padding: 2rem 0;
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}

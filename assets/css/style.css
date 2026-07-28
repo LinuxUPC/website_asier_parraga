@@ -18,9 +18,10 @@
   --border-color: rgba(255, 255, 255, 0.08);
   --border-hover: rgba(0, 128, 201, 0.5);
 
+  --font-mono: 'Share Tech Mono', monospace; 
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
-  --font-mono: 'Fira Code', monospace;
 }
+
 
 * {
   box-sizing: border-box;
@@ -72,13 +73,21 @@ a {
 }
 
 .logo-box {
-  width: 52px;
-  height: 52px;
+  width: 90px;        
+  height: 90px;      
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
   transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.logo-text {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 5 rem;  
+  color: var(--text-white);
+  letter-spacing: -0.5px;
 }
 
 .logo-container:hover .logo-box {
@@ -123,7 +132,7 @@ a {
 .nav-links a {
   color: var(--text-main);
   font-family: var(--font-mono);
-  font-size: 0.85rem;
+  font-size: 1.25rem;
   font-weight: 600;
 }
 
